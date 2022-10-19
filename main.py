@@ -2,7 +2,7 @@ import telebot
 import download_audio
 import threading
 
-bot = telebot.TeleBot("5504530111:AAEffGN-dgcJs8gOGdiUGvAygjF_QKxGqMw")
+bot = telebot.TeleBot("")
 
 
 @bot.message_handler(commands=['start'])
